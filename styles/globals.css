@@ -105,3 +105,15 @@ a {
     color-scheme: dark;
   }
 }
+
+.post-grid{
+   display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 15%);
+    grid-gap: 15px;
+}
+.nft-img{
+  width: 200px;
+  height: 200px;
+}
+
